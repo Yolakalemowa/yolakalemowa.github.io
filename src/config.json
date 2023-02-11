@@ -1,0 +1,10 @@
+{
+    "title": "Links Template Astro",
+    "description": "Made with Astro by noClaps",
+    "location": "Shugacaut",
+    "links": {
+        "ZeroLimits.dev": "https://zerolimits.dev",
+        "The Blog of Random": "https://blog.zerolimits.dev",
+        "Aperturic Focus": "https://gallery.zerolimits.dev"
+    }
+}

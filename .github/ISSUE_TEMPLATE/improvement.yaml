@@ -1,0 +1,44 @@
+name: Improvement
+description: Here's a way you can make your template better!
+title: "[IMPROVE] "
+labels: [improvement]
+assignees:
+  - noClaps
+body:
+- type: checkboxes
+  attributes:
+    label: Have you read the code of conduct?
+    description: Please read the code of conduct before submitting an issue.
+    options:
+    - label: I have read the code of conduct.
+      required: true
+
+- type: checkboxes
+  attributes:
+    label: Has this improvement already been suggested?
+    description: Check both open and closed issues to see if this improvement has already been suggested.
+    options:
+    - label: My improvement has not been suggested yet.
+      required: true
+
+- type: textarea
+  attributes:
+    label: Where can I improve?
+    description: You can suggest improvements for the whole template, or just a small section.
+    placeholder: |
+      Suggested improvements can include:
+      - adding new features
+      - removing unneeded features
+      - design improvements
+      - etc.
+
+      This type of issue is not for rendering issues or other bugs, for that you want the Bug Report issue.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Anything else?
+    description: If there's anything else you wanna say that doesn't fit the above categories, you can share them here.
+  validations:
+    required: false

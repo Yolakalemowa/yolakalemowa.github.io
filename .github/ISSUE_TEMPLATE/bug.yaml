@@ -1,0 +1,50 @@
+name: Bug Report
+description: I found a bug in your template!
+title: "[BUG] "
+labels: [bug]
+assignees:
+  - noClaps
+body:
+- type: checkboxes
+  attributes:
+    label: Have you read the code of conduct?
+    description: Please read the code of conduct before submitting an issue.
+    options:
+    - label: I have read the code of conduct.
+      required: true
+
+- type: checkboxes
+  attributes:
+    label: Has this bug already been reported?
+    description: Check both open and closed issues to see if this bug has already been reported.
+    options:
+    - label: This bug has not been reported yet.
+      required: true
+
+- type: textarea
+  attributes:
+    label: Environment
+    description: |
+      What OS and browser are you using? Examples:
+      - OS: Windows 10, Fedora 36, Android 12, iOS 16, macOS Monterey, etc.
+      - Browser: Firefox 101.0.1, Brave v1.40.105, Chrome 103.0.5060.53, GNOME Web 42.2, etc.
+    value: |
+      **OS**:
+      **Browser**:
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Suggested fix
+    description: How do you think I can fix this?
+    placeholder: Before you share your suggestion, however, make sure you've gone through the Astro docs and issue tracker to make sure the feature is supported or if the bug has been reported there.
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Anything else?
+    description: If there's anything else you wanna say that doesn't fit the above categories, you can share them here.
+  validations:
+    required: false
