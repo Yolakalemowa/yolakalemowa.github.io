@@ -17,6 +17,6 @@
 		"astro-critters": "^1.1.29"
 	},
 	"devDependencies": {
-		"sass": "^1.58.0"
+		"sass": "^1.58.1"
 	}
 }
