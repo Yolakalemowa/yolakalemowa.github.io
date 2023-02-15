@@ -13,7 +13,7 @@
 		"@astrojs/sitemap": "^1.0.1",
 		"@fontsource/patua-one": "^4.5.9",
 		"astro": "^2.0.10",
-		"astro-compress": "^1.1.32",
+		"astro-compress": "^1.1.33",
 		"astro-critters": "^1.1.29"
 	},
 	"devDependencies": {
